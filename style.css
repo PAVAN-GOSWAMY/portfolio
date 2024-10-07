@@ -11,7 +11,8 @@ nav {
     position: sticky;
     top: 0;
     background-color: #0a0b0b;
-    height: 70px; /* Set navbar height */
+    height: 70px; 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,21 @@ nav {
     align-items: center;
     width: 100%;
 }
+nav .logo{
+    width: 90px;
+    height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+nav .logo:hover{
+    color: #2c3e50;
+    transition: 0.5s;
+    text-decoration: line-through;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
